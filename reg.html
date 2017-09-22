@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>UI01</title>
+    <link rel="stylesheet" href="./style2.css">
+    <script type="text/javascript" src="./javascript.js".></script>
+</head>
+<body>
+<div class="ui01">
+    <h1> ----------Registration Form----------</h1>
+    <div class="img">
+        <input type="image" src="pic.png" alt="profice pic" width="120" height="120">
+        <div><input  id="upload" class="button" type="submit" value="Upload"></div>
+    </div>
+    <div class="reg">
+        <div id="name">Name:</div>
+        <input id ="type-name" class="name" placeholder="Type in your name" type="text">
+        <div id="dob">D.O.B:</div>
+        <input id="bday" class="dob" type="date">
+        <div id="city">City:</div>
+        <select id="opt">
+            <option  value="Ho Chi Minh City">Ho Chi Minh City</option>
+            <option value="Ha Noi City">Ha Noi City</option>
+            <option value="Da Nang City">Da Nang City</option>
+        </select>
+        <div>
+        <div id="gender">Gender:</div>
+        <input id="radio" type="radio" name="gender" value="male"> Male
+        <input id="radio" type="radio" name="gender" value="female"> Female </div>
+        <div>
+        <div id="dept">Department:</div>
+        <input id="checkbox" type="checkbox" name="Student"> Student
+        <input id="checkbox" type="checkbox" name="Teacher"> Teacher </div>
+        
+    </div>
+    <div><button id="submit" class="button" onclick="myFunction()">Submit</button></div>
+</div>
+</body>
+</html> 
